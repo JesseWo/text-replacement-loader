@@ -21,8 +21,31 @@ This module requires a minimum of Node v6.9.0 and works with Webpack v3 and Webp
 ## Getting Started
 
 install:
+```shell
+npm i https://github.com/JesseWo/text-replacement-loader.git --save-dev
+```
 
-//todo
+use in webpack.config.js
+```javascript
+{
+            test: /\.(js|jsx|mjs)$/,
+            include: paths.appSrc,
+            use: [
+              {
+                loader: require.resolve('babel-loader'),
+                options: {},
+              },
+              //必须放在`use` 数组的最后
+              {
+                loader: require.resolve('text-replacement-loader'),
+                options: {
+                  test: /\$VEST\$/g,
+                  replacement: 'vest/'
+                }
+              }
+            ]
+          },
+```
 
 
 ## Options

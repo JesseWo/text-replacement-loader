@@ -43,7 +43,7 @@
   },
   "dependencies": {
     "schema-utils": "^1.0.0",
-    "loader-utils": "^1.0.2"
+    "loader-utils": "^1.1.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^6.1.3",
