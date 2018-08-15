@@ -10,9 +10,9 @@
 [![tests][tests]][tests-url]
 [![chat][chat]][chat-url]
 
-# file-loader
+# text-replacement-loader
 
-A file loader module for webpack
+A text replacement loader module for webpack
 
 ## Requirements
 
@@ -367,30 +367,7 @@ import png from 'path/to/file.png'
 path/to/file.png?e43b20c069c4a01867c31e98cbce33c9
 ```
 
-## Contributing
-
-Please take a moment to read our contributing guidelines if you haven't yet done so.
-
-#### [CONTRIBUTING](./.github/CONTRIBUTING)
-
 ## License
 
 #### [MIT](./LICENSE)
 
-[npm]: https://img.shields.io/npm/v/file-loader.svg
-[npm-url]: https://npmjs.com/package/file-loader
-
-[node]: https://img.shields.io/node/v/file-loader.svg
-[node-url]: https://nodejs.org
-
-[deps]: https://david-dm.org/webpack-contrib/file-loader.svg
-[deps-url]: https://david-dm.org/webpack-contrib/file-loader
-
-[tests]: 	https://img.shields.io/circleci/project/github/webpack-contrib/file-loader.svg
-[tests-url]: https://circleci.com/gh/webpack-contrib/file-loader
-
-[cover]: https://codecov.io/gh/webpack-contrib/file-loader/branch/master/graph/badge.svg
-[cover-url]: https://codecov.io/gh/webpack-contrib/file-loader
-
-[chat]: https://img.shields.io/badge/gitter-webpack%2Fwebpack-brightgreen.svg
-[chat-url]: https://gitter.im/webpack/webpack
